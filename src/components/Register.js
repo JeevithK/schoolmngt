@@ -23,7 +23,7 @@ export default function Register() {
         const data = { name, email, password };
         console.log(name, email, password);
         
-        axios.post('http://localhost:5000/register', data)
+        axios.post('https://mern-app-8.onrender.com/register', data)
             .then(result => {
                 console.log(result.data)
                 navigate('/')
