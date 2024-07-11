@@ -7,7 +7,7 @@
         useEffect(()=>{
             const fetchUsers = async()=>{
                 try{
-                    const response = await axios.post('http://localhost:5000/displayUsers')
+                    const response = await axios.post('https://mern-app-8.onrender.com/displayUsers')
                     setUsers(response.data)
                 }catch(err){
                     console.error('Error Fetching Users: ',err)
