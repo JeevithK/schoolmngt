@@ -1,0 +1,51 @@
+{
+  "name": "real",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "bcrpyt": "^2.0.0",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "mkdirp": "^3.0.1",
+    "mongoose": "^8.4.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "devStart": "nodemon server.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
