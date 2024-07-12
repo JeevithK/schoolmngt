@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/Employee')
+mongoose.connect('mongodb://0.0.0.0:27017/Employee')
     .then(() => {
         console.log("DB Connected successfully");
     })
